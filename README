@@ -1,0 +1,12 @@
+This illustrates an issue I have with extjs 4.1.1 (GPL edition) related to their infinite grid and scrollbars.
+
+Simply clone this repository and open index.html.  It works perfectly fine over file:// protocol.  (Except the issues below!)
+
+Here are my issues:
+* The layout does not respond to window resize like (I thought) it should.
+* Unable to scroll to see the entire dataset on the 'Static' tab.  (There are 32 rows)
+* Unable to view any data on the 'Buffered' tab.  (Same 32 rows)
+
+The buffered tab is setup like an infinite grid.
+
+This exactly reproduces issues I see when loading 'real' data via an ajax proxy.

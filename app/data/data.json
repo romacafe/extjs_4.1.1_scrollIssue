@@ -1,0 +1,10 @@
+{
+	total: "4",
+	success: "true",
+	data: [
+		{name: 'person1', email: 'somebody1@example.com'},
+		{name: 'person2', email: 'somebody2@example.com'},
+		{name: 'person3', email: 'somebody3@example.com'},
+		{name: 'person4', email: 'somebody4@example.com'},
+	]
+}
